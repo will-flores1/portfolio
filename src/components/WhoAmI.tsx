@@ -25,16 +25,16 @@ function WhoAmI() {
 			<div className="dark:text-white font-semibold text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
-			<div className="mt-4 font-extralight dark:text-white">
+			<div className="mt-2 font-extralight dark:text-white">
 				I live in Maryland and work as a freelance web developer
 			</div>
-			<div className="mt-4 font-extralight dark:text-white">
+			<div className="mt-2 font-extralight dark:text-white">
 				I played soccer and studied computer science in college
 			</div>
-			<div className="mt-4 font-extralight dark:text-white">
+			<div className="mt-2 font-extralight dark:text-white">
 				I speak english and spanish
 			</div>
-			<div className="mt-4 font-extralight dark:text-white">
+			<div className="mt-2 font-extralight dark:text-white">
 				<strong>Things that fire me up:</strong> stocks, movies, sports,
 				photography, productivity, health
 			</div>
