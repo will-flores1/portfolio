@@ -5,6 +5,7 @@ import { MenuIcon, MoonIcon } from "@heroicons/react/solid";
 
 function Header() {
 	let theme = window.localStorage.getItem("data-theme");
+	window.localStorage.setItem("data-theme", "light");
 	const toggleTheme = () => {
 		theme = window.localStorage.getItem("data-theme");
 		if (theme === "dark") {
