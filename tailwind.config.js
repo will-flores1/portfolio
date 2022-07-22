@@ -9,6 +9,10 @@ module.exports = {
 				darkBackground: "#202023",
 				lightMoon: "#805ad5",
 				darkMoon: "#fcd28d",
+				moonTeal: "#06aa76",
+			},
+			textIndent: {
+				neg: "-2rem",
 			},
 		},
 	},
