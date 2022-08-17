@@ -59,7 +59,7 @@ function WhoAmI() {
 				</a>
 			</div>
 			<div className="mt-2 font-extralight dark:text-white">
-				I build websites using Typescript, React/Nextjs, CSS, and Sanity
+				I build websites using React, Javascript, and Typescript
 			</div>
 			<div className="mt-2 font-extralight dark:text-white">
 				I speak english and spanish
