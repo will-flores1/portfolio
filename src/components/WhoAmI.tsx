@@ -145,7 +145,7 @@ function WhoAmI() {
 				href="https://www.linkedin.com/in/wilfredo-flores1/"
 				target="_blank"
 				rel="noreferrer"
-				className="flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit mb-10"
+				className="flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit mb-16"
 			>
 				<img src={linkedin} alt="" className="h-6 w-6 fill-current pr-2" />
 				<div className="font-bold text-moonTeal hover:underline">
