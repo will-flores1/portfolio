@@ -85,6 +85,13 @@ function WhoAmI() {
 				demoLink="https://twitter-2-0-nu.vercel.app/"
 				githubLink="https://github.com/will-flores1/twitter-2.0"
 			/>
+			{/* Speed typing game */}
+			<ProjectTemplate
+				title="Speed Typing Game"
+				description="Click start and begin typing!"
+				demoLink="https://speed-typing-game-omega.vercel.app/"
+				githubLink="https://github.com/will-flores1/speed-typing-game"
+			/>
 			{/* Tenzies */}
 			<ProjectTemplate
 				title="Tenzies Game"
