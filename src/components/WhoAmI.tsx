@@ -39,32 +39,30 @@ function WhoAmI() {
 				>
 					CS50
 				</a>
+				,
 				<a
 					href="https://www.theodinproject.com/"
 					target="_blank"
 					rel="noreferrer"
 					className="font-black hover:underline"
 				>
-					, The Odin Project
+					The Odin Project
 				</a>
+				, &{" "}
 				<a
-					href="https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money/"
+					href="https://scrimba.com/"
 					target="_blank"
 					rel="noreferrer"
 					className="font-black hover:underline"
 				>
-					, & Web Design
+					Scrimba
 				</a>
-			</div>
-			<div className="mt-2 font-extralight dark:text-white">
-				I build web apps using React
 			</div>
 			<div className="mt-2 font-extralight dark:text-white">
 				I speak English (native) and Spanish (proficient)
 			</div>
 			<div className="mt-2 font-extralight dark:text-white">
-				<strong>Things that fire me up:</strong> soccer, programming, gaming,
-				photography
+				<strong>Things that fire me up:</strong> soccer, gaming, photography
 			</div>
 			{/* <a
 				href="https://www.wilfredoflores.dev/"
@@ -88,37 +86,23 @@ function WhoAmI() {
 			{/* Speed typing game */}
 			<ProjectTemplate
 				title="Speed Typing Game"
-				description="Click start and begin typing!"
+				description="Speed typing test. How fast do you type?"
 				demoLink="https://speed-typing-game-omega.vercel.app/"
 				githubLink="https://github.com/will-flores1/speed-typing-game"
 			/>
 			{/* Tenzies */}
 			<ProjectTemplate
 				title="Tenzies Game"
-				description="The objective is to get all dice on the same number. Built w/ Javascript & React. "
+				description="Dice game, get all die on the same number."
 				demoLink="https://tenzies-game-olive.vercel.app/"
 				githubLink="https://github.com/will-flores1/tenzies-game"
 			/>
 			{/* Local Library */}
 			<ProjectTemplate
 				title="Book Library"
-				description="A library wheres books are stored. Built w/ Javascript, CSS, & HTML."
+				description="Library app. Add, remove, and update books."
 				demoLink="https://will-flores1.github.io/library-local/"
-				githubLink="https://github.com/will-flores1/tenzies-game"
-			/>
-			{/* Calculator */}
-			<ProjectTemplate
-				title="Calculator"
-				description="My version of the calculator for The Odin Project. Built w/ Javascript, CSS, & HTML."
-				demoLink="https://will-flores1.github.io/calculator/"
-				githubLink="https://github.com/will-flores1/calculator"
-			/>
-			{/* Rock, Paper, Scissors */}
-			<ProjectTemplate
-				title="Rock Paper Scissors"
-				description="My version of RPS for The Odin Project. Built w/ Javascript, CSS, & HTML."
-				demoLink="https://will-flores1.github.io/rock-paper-scissors/"
-				githubLink="https://github.com/wilfredo-flores/rock-paper-scissors"
+				githubLink="https://github.com/will-flores1/library-local"
 			/>
 
 			<div>
