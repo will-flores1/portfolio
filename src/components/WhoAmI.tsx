@@ -77,9 +77,8 @@ function WhoAmI() {
 			</div>
 			{/* Twitter */}
 			<ProjectTemplate
-				title="Twitter Timeline"
-				description="Tweet, Sign In, Comment functionality. Built w/ Next.js, React,
-				Typescript, Sanity, GROQ, Tailwindcss"
+				title="Twitter Feed Clone"
+				description="Sign in, tweet, and comment."
 				demoLink="https://twitter-2-0-nu.vercel.app/"
 				githubLink="https://github.com/will-flores1/twitter-2.0"
 			/>
