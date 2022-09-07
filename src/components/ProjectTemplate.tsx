@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectTemplate(props: any) {
 	return (
-		<div className="py-2 overflow-normal dark:text-white/90 mb-2">
+		<div className="py-3 lg:py-2 overflow-normal dark:text-white/90 mb-2 lg:text-base text-lg">
 			<a
 				className="font-bold pr-3 text-blue-500 hover:text-black dark:hover:text-white transition duration-150 ease-in-out"
 				target="_blank"
