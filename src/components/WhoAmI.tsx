@@ -8,9 +8,9 @@ import ProjectTemplate from "./ProjectTemplate";
 function WhoAmI() {
 	return (
 		<div className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20">
-			{/* <div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-10 text-sm text-center text-black/70 tracking-wide dark:text-white">
+			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-10 text-sm text-center text-black/70 tracking-wide dark:text-white">
 				Hi, I am a web developer based in Maryland
-			</div> */}
+			</div>
 			<div className="lg:flex lg:justify-between">
 				<div>
 					<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
@@ -30,7 +30,7 @@ function WhoAmI() {
 				Me in 10 seconds
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
-				I've learned web development from{" "}
+				I've learned web development using{" "}
 				<a
 					href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
 					target="_blank"
