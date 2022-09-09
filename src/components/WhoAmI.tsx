@@ -8,16 +8,22 @@ import ProjectTemplate from "./ProjectTemplate";
 function WhoAmI() {
 	return (
 		<div className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20">
-			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-10 text-sm text-center text-black/70 tracking-wide dark:text-white">
-				Hi, I am a web developer based in Maryland
+			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-sm text-center text-black/70 tracking-wide dark:text-white">
+				Hi, I am a software engineer and video editor based in Maryland
 			</div>
+			<iframe
+				className="mx-auto w-96 h-52 mt-5"
+				src="https://www.youtube.com/embed/SH5FY6MB-ZQ"
+				title="YouTube video player"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			></iframe>
 			<div className="lg:flex lg:justify-between">
 				<div>
 					<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
 						Wilfredo Flores
 					</div>
 					<div className="text-black/70 dark:text-white text-lg lg:text-base">
-						Digital Craftsmen ( Developer / Designer )
+						Digital Craftsmen ( Editor / Developer )
 					</div>
 				</div>
 				<img
@@ -62,7 +68,8 @@ function WhoAmI() {
 				I speak English (native) and Spanish (proficient)
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
-				<strong>Things that fire me up:</strong> soccer, gaming, photography
+				<strong>Things that fire me up:</strong> soccer, video editing, gaming,
+				photography
 			</div>
 			{/* <a
 				href="https://www.wilfredoflores.dev/"
