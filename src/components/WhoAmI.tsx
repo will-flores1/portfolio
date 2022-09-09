@@ -82,19 +82,19 @@ function WhoAmI() {
 				demoLink="https://twitter-2-0-nu.vercel.app/"
 				githubLink="https://github.com/will-flores1/twitter-2.0"
 			/>
+			{/* Spotify API React */}
+			<ProjectTemplate
+				title="Spotify API React"
+				description="Spotify API categories, playlists, tracks UI"
+				demoLink="https://spotify-api-react.vercel.app/"
+				githubLink="https://github.com/will-flores1/spotify-api-react"
+			/>
 			{/* Speed typing game */}
 			<ProjectTemplate
 				title="Speed Typing Game"
 				description="Speed typing test. How fast do you type?"
 				demoLink="https://speed-typing-game-omega.vercel.app/"
 				githubLink="https://github.com/will-flores1/speed-typing-game"
-			/>
-			{/* Tenzies */}
-			<ProjectTemplate
-				title="Tenzies Game"
-				description="Dice game, get all die on the same number."
-				demoLink="https://tenzies-game-olive.vercel.app/"
-				githubLink="https://github.com/will-flores1/tenzies-game"
 			/>
 			{/* Local Library */}
 			<ProjectTemplate
