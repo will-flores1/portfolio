@@ -33,8 +33,8 @@ function WhoAmI() {
 				Me in 10 seconds
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
-				I learned web development using{" "}
-				<a
+				I learned to program and edit videos through the internet{" "}
+				{/* <a
 					href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
 					target="_blank"
 					rel="noreferrer"
@@ -59,7 +59,7 @@ function WhoAmI() {
 					className="font-black hover:underline"
 				>
 					Scrimba
-				</a>
+				</a> */}
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
 				I speak English (native) and Spanish (proficient)
