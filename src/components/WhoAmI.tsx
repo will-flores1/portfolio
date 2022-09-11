@@ -6,6 +6,17 @@ import linkedin from "../assets/linkedin.svg";
 import ProjectTemplate from "./ProjectTemplate";
 
 function WhoAmI() {
+	const TheOdinProject = (
+		<a
+			href="https://www.theodinproject.com"
+			target="_blank"
+			rel="noreferrer"
+			className="font-black hover:underline"
+		>
+			The Odin Project's
+		</a>
+	);
+
 	return (
 		<div
 			className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20"
@@ -32,9 +43,9 @@ function WhoAmI() {
 			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
-			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
+			{/* <div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
 				I learned to program and edit videos through the internet{" "}
-				{/* <a
+				<a
 					href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
 					target="_blank"
 					rel="noreferrer"
@@ -42,31 +53,21 @@ function WhoAmI() {
 				>
 					CS50
 				</a>
-				,
-				<a
-					href="https://www.theodinproject.com/"
-					target="_blank"
-					rel="noreferrer"
-					className="font-black hover:underline"
-				>
-					The Odin Project
-				</a>
-				, &{" "}
-				<a
-					href="https://scrimba.com/"
-					target="_blank"
-					rel="noreferrer"
-					className="font-black hover:underline"
-				>
-					Scrimba
-				</a> */}
+			</div> */}
+			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
+				I started programming in Java while I was studying Computer Science at
+				Montgomery College.
+			</div>
+			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
+				I worked through {TheOdinProject} full stack web development boot camp
+				while working full-time at an auto body shop.
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
 				I speak English (native) and Spanish (proficient)
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
-				<strong>Things that fire me up:</strong> soccer, video editing, gaming,
-				photography
+				<strong>Things that fire me up:</strong> soccer, video editing, video
+				games
 			</div>
 			{/* <a
 				href="https://www.wilfredoflores.dev/"
