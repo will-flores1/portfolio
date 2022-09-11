@@ -14,12 +14,6 @@ function WhoAmI() {
 			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-sm text-center text-black/70 tracking-wide dark:text-white">
 				Hi, I am a software engineer and video editor based in Maryland
 			</div>
-			<iframe
-				className="mx-auto w-fit h-full mt-5"
-				src="https://www.youtube.com/embed/SH5FY6MB-ZQ"
-				title="YouTube video player"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-			></iframe>
 			<div className="lg:flex lg:justify-between">
 				<div>
 					<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
@@ -35,7 +29,7 @@ function WhoAmI() {
 					alt=""
 				/>
 			</div>
-			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
+			{/* <div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
@@ -73,7 +67,7 @@ function WhoAmI() {
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
 				<strong>Things that fire me up:</strong> soccer, video editing, gaming,
 				photography
-			</div>
+			</div> */}
 			{/* <a
 				href="https://www.wilfredoflores.dev/"
 				className="bg-emerald-600 w-fit mx-auto mt-6 py-3 px-6 rounded-md text-white hover:cursor-pointer hover:bg-emerald-700 transition ease-in-out duration-150 font-bold"
@@ -82,6 +76,12 @@ function WhoAmI() {
 			>
 				My portfolio
 			</a> */}
+			<iframe
+				className="mx-auto w-fit h-full mt-5"
+				src="https://www.youtube.com/embed/SH5FY6MB-ZQ"
+				title="YouTube video player"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			></iframe>
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
 				Projects
 			</div>
