@@ -7,7 +7,10 @@ import ProjectTemplate from "./ProjectTemplate";
 
 function WhoAmI() {
 	return (
-		<div className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20">
+		<div
+			className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20"
+			id="fade"
+		>
 			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-sm text-center text-black/70 tracking-wide dark:text-white">
 				Hi, I am a software engineer and video editor based in Maryland
 			</div>
