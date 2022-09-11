@@ -15,7 +15,7 @@ function WhoAmI() {
 				Hi, I am a software engineer and video editor based in Maryland
 			</div>
 			<iframe
-				className="mx-auto w-96 h-52 mt-5"
+				className="mx-auto w-fit h-full mt-5"
 				src="https://www.youtube.com/embed/SH5FY6MB-ZQ"
 				title="YouTube video player"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
