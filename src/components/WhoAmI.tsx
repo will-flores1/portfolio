@@ -1,4 +1,3 @@
-import React from "react";
 import pp from "../assets/profile-picture.png";
 import github from "../assets/github.svg";
 import twitter from "../assets/twitter.svg";
@@ -11,7 +10,7 @@ function WhoAmI() {
 			href="https://www.theodinproject.com"
 			target="_blank"
 			rel="noreferrer"
-			className="font-black hover:underline"
+			className="font-semibold hover:underline"
 		>
 			The Odin Project's
 		</a>
@@ -43,17 +42,6 @@ function WhoAmI() {
 			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
-			{/* <div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
-				I learned to program and edit videos through the internet{" "}
-				<a
-					href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
-					target="_blank"
-					rel="noreferrer"
-					className="font-black hover:underline"
-				>
-					CS50
-				</a>
-			</div> */}
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
 				I started programming in Java while I was studying Computer Science at
 				Montgomery College.
@@ -77,12 +65,6 @@ function WhoAmI() {
 			>
 				My portfolio
 			</a> */}
-			{/* <iframe
-				className="mx-auto w-fit h-full mt-5"
-				src="https://www.youtube.com/embed/SH5FY6MB-ZQ"
-				title="YouTube video player"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-			></iframe> */}
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
 				Projects
 			</div>
