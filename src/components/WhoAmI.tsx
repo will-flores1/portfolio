@@ -1,12 +1,4 @@
-import pp from "../assets/profile-picture.png";
-import github from "../assets/github.svg";
-import twitter from "../assets/twitter.svg";
-import linkedin from "../assets/linkedin.svg";
 import ProjectTemplate from "./ProjectTemplate";
-import twitterDemo from "../assets/twitter-demo.webp";
-import spotifyDemo from "../assets/spotify-demo.webp";
-import typingDemo from "../assets/typing-demo.webp";
-import libraryDemo from "../assets/local-library.webp";
 import Projects from "./Projects";
 
 function WhoAmI() {
@@ -39,7 +31,7 @@ function WhoAmI() {
 					</div>
 				</div>
 				<img
-					src={pp}
+					src="./assets/profile-picture.png"
 					className="lg:pt-3 lg:mx-0 md:h-40 md:w-40 h-32 w-32 mx-auto my-4"
 					alt=""
 				/>
@@ -80,7 +72,7 @@ function WhoAmI() {
 					description="Sign in, tweet, and comment."
 					demoLink="https://twitter-2-0-nu.vercel.app/"
 					githubLink="https://github.com/will-flores1/twitter-2.0"
-					demoImg={twitterDemo}
+					demoImg="./assets/twitter-demo.webp"
 				/>
 				{/* Spotify API React */}
 				<ProjectTemplate
@@ -88,7 +80,7 @@ function WhoAmI() {
 					description="Spotify API categories, playlists, tracks UI"
 					demoLink="https://spotify-api-react.vercel.app/"
 					githubLink="https://github.com/will-flores1/spotify-api-react"
-					demoImg={spotifyDemo}
+					demoImg="./assets/spotify-demo.webp"
 				/>
 				{/* Speed typing game */}
 				<ProjectTemplate
@@ -96,7 +88,7 @@ function WhoAmI() {
 					description="Speed typing test. How fast do you type?"
 					demoLink="https://speed-typing-game-omega.vercel.app/"
 					githubLink="https://github.com/will-flores1/speed-typing-game"
-					demoImg={typingDemo}
+					demoImg="./assets/typing-demo.webp"
 				/>
 				{/* Local Library */}
 				<ProjectTemplate
@@ -104,7 +96,7 @@ function WhoAmI() {
 					description="Library app. Add, remove, and update books."
 					demoLink="https://will-flores1.github.io/library-local/"
 					githubLink="https://github.com/will-flores1/library-local"
-					demoImg={libraryDemo}
+					demoImg="./assets/local-library.webp"
 				/>
 			</Projects>
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
@@ -116,7 +108,11 @@ function WhoAmI() {
 				rel="noreferrer"
 				className="mt-3 flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base"
 			>
-				<img src={github} alt="" className="h-7 w-7 fill-current pr-2" />
+				<img
+					src="./assets/github.svg"
+					alt=""
+					className="h-7 w-7 fill-current pr-2"
+				/>
 				<div className="font-bold text-moonTeal hover:underline">
 					<span className="font-light">@</span>will-flores1
 				</div>
@@ -127,7 +123,11 @@ function WhoAmI() {
 				rel="noreferrer"
 				className="flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base"
 			>
-				<img src={twitter} alt="" className="h-7 w-7 fill-current pr-2" />
+				<img
+					src="./assets/twitter.svg"
+					alt=""
+					className="h-7 w-7 fill-current pr-2"
+				/>
 				<div className="font-bold text-moonTeal hover:underline">
 					<span className="font-light">@</span>will_flores1
 				</div>
@@ -138,7 +138,11 @@ function WhoAmI() {
 				rel="noreferrer"
 				className="flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit mb-16 text-lg lg:text-base"
 			>
-				<img src={linkedin} alt="" className="h-7 w-7 fill-current pr-2" />
+				<img
+					src="./assets/linkedin.svg"
+					alt=""
+					className="h-7 w-7 fill-current pr-2"
+				/>
 				<div className="font-bold text-moonTeal hover:underline">
 					<span className="font-light">@</span>wilfredo-flores1
 				</div>
