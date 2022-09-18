@@ -1,5 +1,3 @@
-import paw from "../assets/footprint.webp";
-import darkPaw from "../assets/footprint-dark.webp";
 import { MoonIcon } from "@heroicons/react/solid";
 
 interface Props {
@@ -13,7 +11,11 @@ function Header(props: Props) {
 				<div className="flex px-2 items-center group">
 					<img
 						className="h-6 w-6 lg:h-5 lg:w-5 group-hover:cursor-pointer group-hover:rotate-12 transition ease-in-out duration-300"
-						src={props.theme === "dark" ? darkPaw : paw}
+						src={
+							props.theme === "dark"
+								? "./assets/footprint-dark.webp"
+								: "./assets/footprint.webp"
+						}
 						alt=""
 					/>
 					<div className="text-xl lg:text-lg font-semibold hover:cursor-pointer dark:text-white group">
