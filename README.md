@@ -8,7 +8,7 @@ Programming portfolio. React & Tailwind front-end.
 
 ## Screenshot
 
-![App Screeshot](/public/portfolio.png)
+![App Screeshot](/public/portfolio1.png)
 
 ## Author
 
