@@ -3,6 +3,11 @@ import github from "../assets/github.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.svg";
 import ProjectTemplate from "./ProjectTemplate";
+import twitterDemo from "../assets/twitter-demo.webp";
+import spotifyDemo from "../assets/spotify-demo.webp";
+import typingDemo from "../assets/typing-demo.webp";
+import libraryDemo from "../assets/local-library.webp";
+import Work from "./Work";
 
 function WhoAmI() {
 	const TheOdinProject = (
@@ -30,12 +35,12 @@ function WhoAmI() {
 						Wilfredo Flores
 					</div>
 					<div className="text-black/70 dark:text-white text-lg lg:text-base">
-						Digital Craftsmen ( Editor / Developer )
+						Software Engineer
 					</div>
 				</div>
 				<img
 					src={pp}
-					className="lg:pt-3 lg:mx-0 lg:h-40 h-32 mx-auto my-4"
+					className="lg:pt-3 lg:mx-0 md:h-40 md:w-40 h-32 w-32 mx-auto my-4"
 					alt=""
 				/>
 			</div>
@@ -47,8 +52,8 @@ function WhoAmI() {
 				Montgomery College.
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
-				I worked through {TheOdinProject} full stack web development boot camp
-				while working full-time at an auto body shop.
+				I worked through {TheOdinProject} full stack boot camp while working
+				full-time at an auto body shop.
 			</div>
 			<div className="mt-2 font-extralight dark:text-white lg:text-base text-lg">
 				I speak English (native) and Spanish (proficient)
@@ -68,39 +73,42 @@ function WhoAmI() {
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
 				Projects
 			</div>
-			{/* Twitter */}
-			<ProjectTemplate
-				title="Twitter Feed Clone"
-				description="Sign in, tweet, and comment."
-				demoLink="https://twitter-2-0-nu.vercel.app/"
-				githubLink="https://github.com/will-flores1/twitter-2.0"
-			/>
-			{/* Spotify API React */}
-			<ProjectTemplate
-				title="Spotify API React"
-				description="Spotify API categories, playlists, tracks UI"
-				demoLink="https://spotify-api-react.vercel.app/"
-				githubLink="https://github.com/will-flores1/spotify-api-react"
-			/>
-			{/* Speed typing game */}
-			<ProjectTemplate
-				title="Speed Typing Game"
-				description="Speed typing test. How fast do you type?"
-				demoLink="https://speed-typing-game-omega.vercel.app/"
-				githubLink="https://github.com/will-flores1/speed-typing-game"
-			/>
-			{/* Local Library */}
-			<ProjectTemplate
-				title="Book Library"
-				description="Library app. Add, remove, and update books."
-				demoLink="https://will-flores1.github.io/library-local/"
-				githubLink="https://github.com/will-flores1/library-local"
-			/>
-
-			<div>
-				<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white tracking-normal">
-					On the web
-				</div>
+			<Work>
+				{/* Twitter */}
+				<ProjectTemplate
+					title="Twitter Feed Clone"
+					description="Sign in, tweet, and comment."
+					demoLink="https://twitter-2-0-nu.vercel.app/"
+					githubLink="https://github.com/will-flores1/twitter-2.0"
+					demoImg={twitterDemo}
+				/>
+				{/* Spotify API React */}
+				<ProjectTemplate
+					title="Spotify API React"
+					description="Spotify API categories, playlists, tracks UI"
+					demoLink="https://spotify-api-react.vercel.app/"
+					githubLink="https://github.com/will-flores1/spotify-api-react"
+					demoImg={spotifyDemo}
+				/>
+				{/* Speed typing game */}
+				<ProjectTemplate
+					title="Speed Typing Game"
+					description="Speed typing test. How fast do you type?"
+					demoLink="https://speed-typing-game-omega.vercel.app/"
+					githubLink="https://github.com/will-flores1/speed-typing-game"
+					demoImg={typingDemo}
+				/>
+				{/* Local Library */}
+				<ProjectTemplate
+					title="Book Library"
+					description="Library app. Add, remove, and update books."
+					demoLink="https://will-flores1.github.io/library-local/"
+					githubLink="https://github.com/will-flores1/library-local"
+					demoImg={libraryDemo}
+				/>
+			</Work>
+			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
+				On the web
 			</div>
 			<a
 				href="https://github.com/will-flores1"
