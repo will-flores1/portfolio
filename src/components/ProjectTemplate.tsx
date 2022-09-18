@@ -7,7 +7,7 @@ function ProjectTemplate(props: any) {
 				<img
 					src={props.demoImg}
 					alt="thumbnail"
-					className="rounded-xl mb-4 w-fit h-fit"
+					className="rounded-xl mb-4 w-fit h-44 md:h-fit"
 				/>
 				<p className="text-xl md:text-lg">{props.title}</p>
 				<p className="font-light pt-1 text-base md:text-sm">
