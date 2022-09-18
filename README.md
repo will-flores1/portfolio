@@ -4,7 +4,7 @@
 
 ## Description
 
-Inspired by one of my favorite Youtube channels, [devaslife](https://www.youtube.com/c/devaslife/videos), with a React & Tailwind front-end
+Programming portfolio. React & Tailwind front-end.
 
 ## Screenshot
 
