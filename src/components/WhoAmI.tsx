@@ -7,7 +7,7 @@ import twitterDemo from "../assets/twitter-demo.webp";
 import spotifyDemo from "../assets/spotify-demo.webp";
 import typingDemo from "../assets/typing-demo.webp";
 import libraryDemo from "../assets/local-library.webp";
-import Work from "./Work";
+import Projects from "./Projects";
 
 function WhoAmI() {
 	const TheOdinProject = (
@@ -73,7 +73,7 @@ function WhoAmI() {
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
 				Projects
 			</div>
-			<Work>
+			<Projects>
 				{/* Twitter */}
 				<ProjectTemplate
 					title="Twitter Feed Clone"
@@ -106,7 +106,7 @@ function WhoAmI() {
 					githubLink="https://github.com/will-flores1/library-local"
 					demoImg={libraryDemo}
 				/>
-			</Work>
+			</Projects>
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
 				On the web
 			</div>
