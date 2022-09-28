@@ -1,7 +1,18 @@
 import ProjectTemplate from "./ProjectTemplate";
 import Projects from "./Projects";
+import { getAge } from "../helpers/age";
+import { useEffect, useState } from "react";
 
 function WhoAmI() {
+	let [age, setAge] = useState("");
+
+	useEffect(() => {
+		const timer = setInterval(() => {
+			setAge(getAge());
+		}, 50);
+		return () => clearInterval(timer);
+	}, [age]);
+
 	const TheOdinProject = (
 		<a
 			href="https://www.theodinproject.com"
@@ -18,8 +29,11 @@ function WhoAmI() {
 			className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20"
 			id="fade"
 		>
-			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-sm text-center text-black/70 tracking-wide dark:text-white">
-				Hi, I am a software engineer and video editor based in Maryland
+			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-base text-center text-black/70 tracking-wide dark:text-white">
+				<div className="font-mono tracking-tighter">
+					I'm a <span className="w-40">{age}</span> year old developer based in
+					Maryland, USA
+				</div>
 			</div>
 			<div className="lg:flex lg:justify-between">
 				<div>
@@ -27,7 +41,7 @@ function WhoAmI() {
 						Wilfredo Flores
 					</div>
 					<div className="text-black/70 dark:text-white text-lg lg:text-base">
-						Software Engineer
+						Software Developer
 					</div>
 				</div>
 				<img
