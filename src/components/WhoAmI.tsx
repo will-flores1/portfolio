@@ -82,6 +82,14 @@ function WhoAmI() {
 					githubLink="https://github.com/will-flores1/spotify-api-react"
 					demoImg="./assets/spotify-demo.webp"
 				/>
+				{/* Local Library */}
+				<ProjectTemplate
+					title="Library App"
+					description="Book tracking web application."
+					demoLink="https://library-app-navy.vercel.app/"
+					githubLink="https://github.com/will-flores1/Library-App"
+					demoImg="./assets/library-app-demo.jpg"
+				/>
 				{/* Speed typing game */}
 				<ProjectTemplate
 					title="Speed Typing Game"
@@ -89,14 +97,6 @@ function WhoAmI() {
 					demoLink="https://speed-typing-game-omega.vercel.app/"
 					githubLink="https://github.com/will-flores1/speed-typing-game"
 					demoImg="./assets/typing-demo.webp"
-				/>
-				{/* Local Library */}
-				<ProjectTemplate
-					title="Book Library"
-					description="Library app. Add, remove, and update books."
-					demoLink="https://will-flores1.github.io/library-local/"
-					githubLink="https://github.com/will-flores1/library-local"
-					demoImg="./assets/local-library.webp"
 				/>
 			</Projects>
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
