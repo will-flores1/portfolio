@@ -47,7 +47,7 @@ function WhoAmI() {
 				<img
 					src="./assets/profile-picture.png"
 					className="lg:pt-3 lg:mx-0 md:h-40 md:w-40 h-32 w-32 mx-auto my-4"
-					alt=""
+					alt="profile"
 				/>
 			</div>
 			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
