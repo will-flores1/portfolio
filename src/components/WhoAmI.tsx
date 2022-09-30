@@ -29,13 +29,13 @@ function WhoAmI() {
 			className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20"
 			id="fade"
 		>
-			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-base text-center text-black/70 tracking-wide dark:text-white">
+			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-lg md:text-base text-center text-black/70 tracking-wide dark:text-white">
 				<div className="font-mono tracking-tighter">
 					I'm a <span className="w-40">{age}</span> year old developer based in
 					Maryland, USA
 				</div>
 			</div>
-			<div className="lg:flex lg:justify-between">
+			<div className="lg:flex lg:justify-between mt-1">
 				<div>
 					<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
 						Wilfredo Flores
@@ -46,7 +46,7 @@ function WhoAmI() {
 				</div>
 				<img
 					src="./assets/profile-picture.png"
-					className="lg:pt-3 lg:mx-0 md:h-40 md:w-40 h-32 w-32 mx-auto my-4"
+					className="lg:mx-0 h-40 w-40 mx-auto my-4"
 					alt="profile"
 				/>
 			</div>
