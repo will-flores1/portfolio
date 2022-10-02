@@ -50,7 +50,7 @@ function WhoAmI() {
 					alt="profile"
 				/>
 			</div>
-			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
+			{/* <div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
 			<div className="mt-2 font-light dark:text-white lg:text-base text-lg">
@@ -67,7 +67,7 @@ function WhoAmI() {
 			<div className="mt-2 font-light dark:text-white lg:text-base text-lg">
 				<strong>Things that fire me up:</strong> soccer, video editing, video
 				games
-			</div>
+			</div> */}
 			{/* <a
 				href="https://www.wilfredoflores.dev/"
 				className="bg-emerald-600 w-fit mx-auto mt-6 py-3 px-6 rounded-md text-white hover:cursor-pointer hover:bg-emerald-700 transition ease-in-out duration-150 font-bold"
