@@ -88,13 +88,12 @@ function WhoAmI() {
 					githubLink="https://github.com/will-flores1/twitter-2.0"
 					demoImg="./assets/twitter-demo.webp"
 				/>
-				{/* Spotify API React */}
 				<ProjectTemplate
-					title="Spotify API React"
-					description="Spotify API categories, playlists, tracks UI"
-					demoLink="https://spotify-api-react.vercel.app/"
-					githubLink="https://github.com/will-flores1/spotify-api-react"
-					demoImg="./assets/spotify-demo.webp"
+					title="Sort Algorithms Visualizer"
+					description="Sorting algorithm visualization tool."
+					demoLink="https://sort-algorithms-six.vercel.app/"
+					githubLink="https://github.com/will-flores1/Sort-Algorithms"
+					demoImg="./assets/sort-algorithms-demo.jpg"
 				/>
 				{/* Local Library */}
 				<ProjectTemplate
@@ -104,14 +103,15 @@ function WhoAmI() {
 					githubLink="https://github.com/will-flores1/Library-App"
 					demoImg="./assets/library-app-demo.jpg"
 				/>
-				{/* Speed typing game */}
+				{/* Spotify API React */}
 				<ProjectTemplate
-					title="Speed Typing Game"
-					description="Speed typing test. How fast do you type?"
-					demoLink="https://speed-typing-game-omega.vercel.app/"
-					githubLink="https://github.com/will-flores1/speed-typing-game"
-					demoImg="./assets/typing-demo.webp"
+					title="Spotify API React"
+					description="Spotify API categories, playlists, tracks UI"
+					demoLink="https://spotify-api-react.vercel.app/"
+					githubLink="https://github.com/will-flores1/spotify-api-react"
+					demoImg="./assets/spotify-demo.webp"
 				/>
+				{/* Sort Algorithms Visualizer */}
 			</Projects>
 			<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
 				On the web
