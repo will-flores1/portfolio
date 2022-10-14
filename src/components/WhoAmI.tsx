@@ -80,6 +80,14 @@ function WhoAmI() {
 				Projects
 			</div>
 			<Projects>
+				{/* OBS Plug-in */}
+				<ProjectTemplate
+					title="Timer OBS plug-in"
+					description="Countdown Stream Timer/Clock for OBS"
+					demoLink=""
+					githubLink="https://github.com/will-flores1/Countdown-obs-plugin"
+					demoImg="./assets/timer-obs-plugin-demo.jpg"
+				/>
 				{/* Twitter */}
 				<ProjectTemplate
 					title="Twitter Feed Clone"
