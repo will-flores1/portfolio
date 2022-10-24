@@ -50,24 +50,22 @@ function WhoAmI() {
 					alt="profile"
 				/>
 			</div>
-			{/* <div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
+			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
-			<div className="mt-2 font-light dark:text-white lg:text-base text-lg">
-				I started programming in Java while I was studying Computer Science at
-				Montgomery College.
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
+				My introduction to programming was a C++ course at Montgomery College.
 			</div>
-			<div className="mt-2 font-light dark:text-white lg:text-base text-lg">
-				I worked through {TheOdinProject} full stack boot camp while working
-				full-time at an auto body shop.
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
+				Javascript is my language of choice for both quick scripts and web
+				development.
 			</div>
-			<div className="mt-2 font-light dark:text-white lg:text-base text-lg">
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
+				I use React, Meta's framework, for creating SPA's.
+			</div>
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
 				I speak English (native) and Spanish (proficient)
 			</div>
-			<div className="mt-2 font-light dark:text-white lg:text-base text-lg">
-				<strong>Things that fire me up:</strong> soccer, video editing, video
-				games
-			</div> */}
 			{/* <a
 				href="https://www.wilfredoflores.dev/"
 				className="bg-emerald-600 w-fit mx-auto mt-6 py-3 px-6 rounded-md text-white hover:cursor-pointer hover:bg-emerald-700 transition ease-in-out duration-150 font-bold"
