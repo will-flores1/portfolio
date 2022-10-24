@@ -27,7 +27,7 @@ function Header(props: Props) {
 						href="https://github.com/will-flores1"
 						target="_blank"
 						rel="noreferrer"
-						className="flex items-center py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base border-black dark:border-white hover:border-b-2"
+						className="flex items-center py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base border-black dark:border-white hover:border-b-2 hover:opacity-75"
 					>
 						<img
 							src={
@@ -36,14 +36,14 @@ function Header(props: Props) {
 									: "./assets/github2.svg"
 							}
 							alt=""
-							className="h-6 w-6 lg:h-5 lg:w-5 fill-darkMoon"
+							className="h-6 w-6 lg:h-5 lg:w-5"
 						/>
 					</a>
 					<a
 						href="https://www.linkedin.com/in/wilfredo-flores1/"
 						target="_blank"
 						rel="noreferrer"
-						className="flex items-center  py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base border-black dark:border-white hover:border-b-2"
+						className="flex items-center  py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base border-black dark:border-white hover:border-b-2 hover:opacity-75"
 					>
 						<img
 							src={
@@ -52,12 +52,12 @@ function Header(props: Props) {
 									: "./assets/linkedin2.svg"
 							}
 							alt=""
-							className="h-6 w-6 lg:h-5 lg:w-5 fill-darkMoon"
+							className="h-6 w-6 lg:h-5 lg:w-5"
 						/>
 					</a>
 					<MoonIcon
 						onClick={props.toggleTheme}
-						className="h-10 lg:h-8 hover:cursor-pointer rotate-35 bg-lightMoon dark:bg-darkMoon p-2 rounded-md active:scale-105 transition ease-in-out fill-white dark:fill-inherit"
+						className="h-10 lg:h-8 hover:cursor-pointer hover:opacity-90 rotate-35 bg-lightMoon dark:bg-darkMoon p-2 rounded-md active:scale-105 transition ease-in-out fill-white dark:fill-inherit"
 					/>
 					{/* <MenuIcon className="h-5 hover:cursor-pointer rotate-35 rounded-md" /> */}
 				</div>
