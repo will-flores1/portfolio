@@ -10,14 +10,16 @@ function ProjectTemplate(props: any) {
 					className="rounded-xl mb-4 w-fit h-44 md:h-fit"
 				/>
 				<div className="flex justify-center items-center">
-					<p className="text-xl md:text-lg font-medium">{props.title}</p>
+					<p className="text-xl md:text-lg font-medium group-hover:opacity-70 transition duration-500 ease-in-out">
+						{props.title}
+					</p>
 					<img
 						src="./assets/github.svg"
 						alt=""
 						className="h-6 w-6 lg:h-5 lg:w-5 fill-darkMoon pt-1 ml-2 group group-hover:opacity-25 transition duration-500 ease-in-out"
 					/>
 				</div>
-				<p className="font-normal pt-1 md:text-sm text-black dark:text-white/90">
+				<p className="font-normal pt-1 md:text-sm text-black dark:text-white/90 group-hover:opacity-70 transition duration-500 ease-in-out">
 					{props.description}
 				</p>
 			</a>
