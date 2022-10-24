@@ -2,14 +2,21 @@ import React from "react";
 
 function ProjectTemplate(props: any) {
 	return (
-		<div className=" dark:text-white/90 text-black/90">
+		<div className=" dark:text-white/90 text-black/90 group">
 			<a href={props.githubLink} target="_blank" rel="noreferrer">
 				<img
 					src={props.demoImg}
 					alt="thumbnail"
 					className="rounded-xl mb-4 w-fit h-44 md:h-fit"
 				/>
-				<p className="text-xl md:text-lg">{props.title}</p>
+				<div className="flex justify-center items-center">
+					<p className="text-xl md:text-lg">{props.title}</p>
+					<img
+						src="./assets/github.svg"
+						alt=""
+						className="h-6 w-6 lg:h-5 lg:w-5 fill-darkMoon pt-1 ml-2 group group-hover:opacity-25 transition duration-500 ease-in-out"
+					/>
+				</div>
 				<p className="font-light pt-1 text-base md:text-sm">
 					{props.description}
 				</p>
