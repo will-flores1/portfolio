@@ -121,14 +121,14 @@ function WhoAmI() {
 				href="https://github.com/will-flores1"
 				target="_blank"
 				rel="noreferrer"
-				className="mt-3 flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base"
+				className="mt-3 flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit text-lg lg:text-base group"
 			>
 				<img
 					src="./assets/github.svg"
 					alt=""
 					className="h-7 w-7 fill-current pr-2"
 				/>
-				<div className="font-bold text-moonTeal hover:underline">
+				<div className="font-bold text-moonTeal group-hover:underline">
 					<span className="font-light">@</span>will-flores1
 				</div>
 			</a>
@@ -136,14 +136,14 @@ function WhoAmI() {
 				href="https://twitter.com/will_flores1"
 				target="_blank"
 				rel="noreferrer"
-				className="flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base"
+				className="flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit text-lg lg:text-base group"
 			>
 				<img
 					src="./assets/twitter.svg"
 					alt=""
 					className="h-7 w-7 fill-current pr-2"
 				/>
-				<div className="font-bold text-moonTeal hover:underline">
+				<div className="font-bold text-moonTeal group-hover:underline">
 					<span className="font-light">@</span>will_flores1
 				</div>
 			</a>
@@ -151,14 +151,14 @@ function WhoAmI() {
 				href="https://www.linkedin.com/in/wilfredo-flores1/"
 				target="_blank"
 				rel="noreferrer"
-				className="flex items-center hover:bg-blue-200 py-2 px-4 rounded-sm transition duration-500 ease-in-out w-fit mb-16 text-lg lg:text-base"
+				className="flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit mb-16 text-lg lg:text-base group"
 			>
 				<img
 					src="./assets/linkedin.svg"
 					alt=""
 					className="h-7 w-7 fill-current pr-2"
 				/>
-				<div className="font-bold text-moonTeal hover:underline">
+				<div className="font-bold text-moonTeal group-hover:underline">
 					<span className="font-light">@</span>wilfredo-flores1
 				</div>
 			</a>
