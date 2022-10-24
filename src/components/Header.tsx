@@ -6,7 +6,7 @@ interface Props {
 }
 function Header(props: Props) {
 	return (
-		<div className="shadow-sm bg-white/30 sticky top-0 backdrop-blur-md">
+		<div className="shadow-sm bg-white/70 dark:bg-stone-900/50 sticky top-0 backdrop-blur-md">
 			<div className="flex justify-between p-4 lg:py-2 max-w-2xl lg:max-w-3xl mx-auto">
 				<div className="flex px-2 items-center group">
 					<img
@@ -23,6 +23,38 @@ function Header(props: Props) {
 					</div>
 				</div>
 				<div className="flex space-x-4 items-center px-2">
+					<a
+						href="https://github.com/will-flores1"
+						target="_blank"
+						rel="noreferrer"
+						className="flex items-center py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base border-black dark:border-white hover:border-b-2"
+					>
+						<img
+							src={
+								props.theme === "dark"
+									? "./assets/github3.svg"
+									: "./assets/github2.svg"
+							}
+							alt=""
+							className="h-6 w-6 fill-darkMoon"
+						/>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/wilfredo-flores1/"
+						target="_blank"
+						rel="noreferrer"
+						className="flex items-center  py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base border-black dark:border-white hover:border-b-2"
+					>
+						<img
+							src={
+								props.theme === "dark"
+									? "./assets/linkedin3.svg"
+									: "./assets/linkedin2.svg"
+							}
+							alt=""
+							className="h-6 w-6 fill-darkMoon"
+						/>
+					</a>
 					<MoonIcon
 						onClick={props.toggleTheme}
 						className="h-10 lg:h-8 hover:cursor-pointer rotate-35 bg-lightMoon dark:bg-darkMoon p-2 rounded-md active:scale-105 transition ease-in-out fill-white dark:fill-inherit"
