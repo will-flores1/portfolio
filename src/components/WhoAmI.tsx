@@ -18,12 +18,12 @@ function WhoAmI() {
 			className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20"
 			id="fade"
 		>
-			<div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-lg md:text-base text-center text-black/70 tracking-wide dark:text-white">
+			{/* <div className="bg-white/30 dark:bg-white/50 px-10 py-3 rounded-md mt-5 text-lg md:text-base text-center text-black/70 tracking-wide dark:text-white">
 				<div className="font-mono tracking-tighter">
 					I'm a <span className="w-40">{age}</span> year old developer based in
 					Maryland, USA
 				</div>
-			</div>
+			</div> */}
 			<div className="lg:flex lg:justify-between mt-1">
 				<div>
 					<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
@@ -42,18 +42,22 @@ function WhoAmI() {
 			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
-			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
-				My introduction to programming was a C++ course at Montgomery College.
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
+				- I'm a <span className="w-40">{age}</span> year old developer based in
+				Maryland, USA
 			</div>
-			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
-				Javascript is my language of choice for both quick scripts and web
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
+				- My introduction to programming was a C++ course at Montgomery College.
+			</div>
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
+				- Javascript is my language of choice for both quick scripts and web
 				development.
 			</div>
-			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
-				I use React, Meta's framework, for creating SPA's.
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
+				- I use React, Meta's framework, for creating SPA's.
 			</div>
-			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
-				I speak English (native) and Spanish (proficient)
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
+				- I speak English (native) and Spanish (proficient)
 			</div>
 			{/* <a
 				href="https://www.wilfredoflores.dev/"
