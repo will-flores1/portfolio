@@ -13,17 +13,6 @@ function WhoAmI() {
 		return () => clearInterval(timer);
 	}, [age]);
 
-	const TheOdinProject = (
-		<a
-			href="https://www.theodinproject.com"
-			target="_blank"
-			rel="noreferrer"
-			className="font-semibold hover:underline"
-		>
-			The Odin Project's
-		</a>
-	);
-
 	return (
 		<div
 			className="flex flex-col mx-auto max-w-3xl lg:max-w-3xl px-10 lg:px-20"
