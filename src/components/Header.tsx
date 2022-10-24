@@ -36,7 +36,7 @@ function Header(props: Props) {
 									: "./assets/github2.svg"
 							}
 							alt=""
-							className="h-6 w-6 fill-darkMoon"
+							className="h-6 w-6 lg:h-5 lg:w-5 fill-darkMoon"
 						/>
 					</a>
 					<a
@@ -52,7 +52,7 @@ function Header(props: Props) {
 									: "./assets/linkedin2.svg"
 							}
 							alt=""
-							className="h-6 w-6 fill-darkMoon"
+							className="h-6 w-6 lg:h-5 lg:w-5 fill-darkMoon"
 						/>
 					</a>
 					<MoonIcon
