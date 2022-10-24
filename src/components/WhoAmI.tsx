@@ -126,7 +126,7 @@ function WhoAmI() {
 				<img
 					src="./assets/github.svg"
 					alt=""
-					className="h-7 w-7 fill-current pr-2"
+					className="h-7 w-7 lg:h-6 lg:w-6 fill-current pr-2"
 				/>
 				<div className="font-bold text-moonTeal group-hover:underline">
 					<span className="font-light">@</span>will-flores1
@@ -141,7 +141,7 @@ function WhoAmI() {
 				<img
 					src="./assets/twitter.svg"
 					alt=""
-					className="h-7 w-7 fill-current pr-2"
+					className="h-7 w-7 lg:h-6 lg:w-6 fill-current pr-2"
 				/>
 				<div className="font-bold text-moonTeal group-hover:underline">
 					<span className="font-light">@</span>will_flores1
@@ -156,7 +156,7 @@ function WhoAmI() {
 				<img
 					src="./assets/linkedin.svg"
 					alt=""
-					className="h-7 w-7 fill-current pr-2"
+					className="h-7 w-7 lg:h-6 lg:w-6 fill-current pr-2"
 				/>
 				<div className="font-bold text-moonTeal group-hover:underline">
 					<span className="font-light">@</span>wilfredo-flores1
