@@ -1,13 +1,19 @@
-import React from "react";
+interface Props {
+	githubLink: string;
+	demoImg: string;
+	title: string;
+	description: string;
+	demoLink?: string;
+}
 
-function ProjectTemplate(props: any) {
+function ProjectTemplate(props: Props) {
 	return (
 		<div className=" dark:text-white/90 text-black/90 group">
 			<a href={props.githubLink} target="_blank" rel="noreferrer">
 				<img
 					src={props.demoImg}
 					alt="thumbnail"
-					className="rounded-xl mb-4 w-fit h-44 md:h-fit"
+					className="rounded-xl mb-4 w-fit h-44 md:h-fit mx-auto"
 				/>
 				<div className="flex justify-center items-center">
 					<p className="text-xl md:text-lg font-medium group-hover:opacity-70 transition duration-500 ease-in-out">
