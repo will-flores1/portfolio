@@ -9,7 +9,7 @@ function App() {
 	);
 	document.documentElement.setAttribute("class", theme);
 
-	const toggleTheme = () => {
+	const toggleTheme = (): void => {
 		if (theme === "dark") {
 			localStorage.setItem("data-theme", "light");
 			document.documentElement.classList.remove("dark");
@@ -21,7 +21,6 @@ function App() {
 			document.documentElement.classList.add("dark");
 			setTheme("dark");
 		}
-		return "";
 	};
 
 	return (
