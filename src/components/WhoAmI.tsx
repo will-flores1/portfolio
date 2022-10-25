@@ -133,7 +133,7 @@ function WhoAmI() {
 				href="https://twitter.com/will_flores1"
 				target="_blank"
 				rel="noreferrer"
-				className="flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit text-lg lg:text-base group"
+				className="flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit text-lg lg:text-base group mb-16"
 			>
 				<img
 					src="./assets/twitter.svg"
@@ -142,21 +142,6 @@ function WhoAmI() {
 				/>
 				<div className="font-bold text-moonTeal group-hover:underline">
 					<span className="font-light">@</span>will_flores1
-				</div>
-			</a>
-			<a
-				href="https://www.linkedin.com/in/wilfredo-flores1/"
-				target="_blank"
-				rel="noreferrer"
-				className="flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit mb-16 text-lg lg:text-base group"
-			>
-				<img
-					src="./assets/linkedin.svg"
-					alt=""
-					className="h-7 w-7 lg:h-6 lg:w-6 fill-current pr-2"
-				/>
-				<div className="font-bold text-moonTeal group-hover:underline">
-					<span className="font-light">@</span>wilfredo-flores1
 				</div>
 			</a>
 		</div>
