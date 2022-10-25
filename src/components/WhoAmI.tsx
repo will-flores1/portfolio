@@ -42,20 +42,17 @@ function WhoAmI() {
 			<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 				Me in 10 seconds
 			</div>
-			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg">
+			<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
 				<p className="py-2">
 					I'm a <span className="w-40">{age}</span> year old developer based in
-					Maryland, USA.
-				</p>
-				<p className="py-2">
-					My introduction to programming was a C++ course at Montgomery College.
+					Maryland.
 				</p>
 				<p className="py-2">
 					Javascript is my language of choice for both quick scripts and web
 					development.
 				</p>
 				<p className="py-2">
-					I use React, Meta's framework, for creating SPA's.
+					I use React, Meta's framework, for creating web apps.
 				</p>
 				<p className="py-2">
 					I speak English (native) and Spanish (proficient).
