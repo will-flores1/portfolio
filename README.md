@@ -1,19 +1,13 @@
 # Developer Portfolio
 
-[Live URL](https://www.wilfredoflores.dev/)
+_Developer portfolio._
 
-## Description
-
-Programming portfolio. React & Tailwind front-end.
-
-## Screenshot
+**[Link](https://www.wilfredoflores.dev/)**
 
 ![App Screeshot](/public/portfolio1.png)
 
-## Author
+## Features
 
-[Wilfredo Flores](https://github.com/will-flores1)
-
-## Acknowledgments
-
-[Takuya Matsuyama](https://www.youtube.com/watch?v=bSMZgXzC9AA&t=6s&ab_channel=devaslife)
+- Light/Dark mode
+- Responsive web design
+- Age in real time
