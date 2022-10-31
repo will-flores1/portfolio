@@ -7,7 +7,7 @@ interface Props {
 function Header(props: Props) {
 	return (
 		<header>
-			<div className="shadow-sm bg-white/70 dark:bg-stone-900/50 sticky top-0 backdrop-blur-md">
+			<div className="shadow-sm bg-white/70 dark:bg-stone-700/50 sticky top-0 backdrop-blur-md">
 				<div className="flex justify-between p-4 lg:py-2 max-w-2xl lg:max-w-3xl mx-auto">
 					<div className="flex px-2 items-center group">
 						<img
@@ -28,7 +28,7 @@ function Header(props: Props) {
 							href="https://github.com/will-flores1"
 							target="_blank"
 							rel="noreferrer"
-							className="flex items-center py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base border-black dark:border-white hover:border-b-2 hover:opacity-75"
+							className="flex items-center py-1 px-1 rounded-sm transition duration-500 ease-in-out w-fit text-lg lg:text-base dark:border-white hover:opacity-75 text-black dark:text-white hover:underline"
 						>
 							<img
 								src={
@@ -37,8 +37,9 @@ function Header(props: Props) {
 										: "./assets/github2.svg"
 								}
 								alt=""
-								className="h-6 w-6 lg:h-5 lg:w-5"
+								className="h-6 w-6 lg:h-5 lg:w-5 mr-1"
 							/>
+							source
 						</a>
 						<MoonIcon
 							onClick={props.toggleTheme}
