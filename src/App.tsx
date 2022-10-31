@@ -14,11 +14,13 @@ function App() {
 			localStorage.setItem("data-theme", "light");
 			document.documentElement.classList.remove("dark");
 			document.documentElement.classList.add("light");
+			document.body.style.backgroundColor = "#F1E6DC";
 			setTheme("light");
 		} else {
 			localStorage.setItem("data-theme", "dark");
 			document.documentElement.classList.remove("light");
 			document.documentElement.classList.add("dark");
+			document.body.style.backgroundColor = "#202023";
 			setTheme("dark");
 		}
 	};
