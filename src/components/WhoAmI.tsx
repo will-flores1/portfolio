@@ -2,6 +2,7 @@ import ProjectTemplate from "./ProjectTemplate";
 import Projects from "./Projects";
 import { getAge } from "../helpers/age";
 import { useEffect, useState } from "react";
+import HyperLink from "./HyperLink";
 
 function WhoAmI() {
 	let [age, setAge] = useState("");
@@ -25,9 +26,9 @@ function WhoAmI() {
 							<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
 								Wilfredo Flores
 							</div>
-							<div className="text-black/70 dark:text-white text-lg lg:text-base">
+							{/* <div className="text-black/70 dark:text-white text-lg lg:text-base">
 								Software Developer
-							</div>
+							</div> */}
 						</div>
 						<img
 							src="./assets/profile-picture.png"
@@ -66,83 +67,20 @@ function WhoAmI() {
 				<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
 					Projects
 				</div>
-				<Projects>
-					{/* OBS Plug-in */}
-					<ProjectTemplate
-						title="Countdown Timer for OBS"
-						description="Countdown Stream Timer/Clock for OBS"
-						demoLink=""
-						githubLink="https://github.com/will-flores1/Countdown-obs-plugin"
-						demoImg="./assets/timer-obs-plugin-demo.jpg"
-					/>
-					{/* Sort Algorithms Visualizer */}
-					<ProjectTemplate
-						title="Sort Algorithms Visualizer"
-						description="Sorting algorithm visualization tool."
-						demoLink="https://sort-algorithms-six.vercel.app/"
-						githubLink="https://github.com/will-flores1/Sort-Algorithms"
-						demoImg="./assets/sort-algorithms-demo.jpg"
-					/>
-					{/* Local Library */}
-					<ProjectTemplate
-						title="CRUD Library App"
-						description="Book tracking web application."
-						demoLink="https://library-app-navy.vercel.app/"
-						githubLink="https://github.com/will-flores1/Library-App"
-						demoImg="./assets/library-app-demo.jpg"
-					/>
-					{/* Spotify API React */}
-					<ProjectTemplate
-						title="Spotify Web API App"
-						description="Spotify API categories, playlists, tracks UI"
-						demoLink="https://spotify-api-react.vercel.app/"
-						githubLink="https://github.com/will-flores1/spotify-api-react"
-						demoImg="./assets/spotify-demo.webp"
-					/>
-					{/* Twitter */}
-					<ProjectTemplate
-						title="Twitter Clone"
-						description="Sign in, tweet, and comment."
-						demoLink="https://twitter-2-0-nu.vercel.app/"
-						githubLink="https://github.com/will-flores1/twitter-2.0"
-						demoImg="./assets/twitter-demo.webp"
-					/>
-				</Projects>
+				<Projects />
 			</main>
-			<footer>
+			<footer className="mb-10">
 				<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
 					On the web
 				</div>
-				<a
-					href="https://github.com/will-flores1"
-					target="_blank"
-					rel="noreferrer"
-					className="mt-3 flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit text-lg lg:text-base group"
-				>
-					<img
-						src="./assets/github.svg"
-						alt=""
-						className="h-7 w-7 lg:h-6 lg:w-6 fill-current pr-2"
-					/>
-					<div className="font-bold text-moonTeal group-hover:underline">
-						<span className="font-light">@</span>will-flores1
-					</div>
-				</a>
-				<a
-					href="https://twitter.com/will_flores1"
-					target="_blank"
-					rel="noreferrer"
-					className="flex items-center hover:bg-teal-100 py-2 px-4 rounded-md transition duration-300 ease-in-out w-fit text-lg lg:text-base group mb-16"
-				>
-					<img
-						src="./assets/twitter.svg"
-						alt=""
-						className="h-7 w-7 lg:h-6 lg:w-6 fill-current pr-2"
-					/>
-					<div className="font-bold text-moonTeal group-hover:underline">
-						<span className="font-light">@</span>will_flores1
-					</div>
-				</a>
+				<HyperLink
+					img="./assets/github.svg"
+					link="https://github.com/will-flores1"
+				/>
+				<HyperLink
+					img="./assets/twitter.svg"
+					link="https://twitter.com/will_flores1"
+				/>
 			</footer>
 		</div>
 	);
