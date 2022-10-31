@@ -8,7 +8,7 @@ interface Props {
 
 function ProjectTemplate(props: Props) {
 	return (
-		<div className=" dark:text-white/90 text-black/90 group">
+		<div className=" dark:text-white/90 text-black/90 group mx-auto">
 			<a href={props.githubLink} target="_blank" rel="noreferrer">
 				<img
 					src={props.demoImg}
