@@ -1,4 +1,3 @@
-import ProjectTemplate from "./ProjectTemplate";
 import Projects from "./Projects";
 import { getAge } from "../helpers/age";
 import { useEffect, useState } from "react";
@@ -13,6 +12,17 @@ function WhoAmI() {
 		}, 50);
 		return () => clearInterval(timer);
 	}, [age]);
+
+	useEffect(() => {
+		const fetchData = async () => {
+			const response = await fetch(
+				"https://api.github.com/users/will-flores1/repos"
+			);
+			const json = await response.json();
+			console.log(json);
+		};
+		fetchData();
+	}, []);
 
 	return (
 		<div
