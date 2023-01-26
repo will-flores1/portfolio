@@ -31,8 +31,8 @@ function WhoAmI() {
 							</div> */}
 						</div>
 						<img
-							src="./assets/profile-picture.png"
-							className="lg:mx-0 h-40 w-40 mx-auto my-4"
+							src="./profile-pic.webp"
+							className="lg:mx-0 h-40 w-40 mx-auto my-4 rounded-full"
 							alt="profile"
 						/>
 					</div>
@@ -41,15 +41,17 @@ function WhoAmI() {
 					</div>
 					<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
 						<p className="py-2">
-							I'm a <span className="w-40">{age}</span> year old developer based
-							in Maryland.
+							I'm a <span className="w-40">{age}</span> year old in Maryland.
 						</p>
 						<p className="py-2">
-							Javascript is my language of choice for both quick scripts and web
-							development.
+							<strong>Languages:</strong> Javascript, HTML, CSS
 						</p>
 						<p className="py-2">
-							I use React, Meta's framework, for creating web apps.
+							<strong>Frameworks:</strong> Svelte, Astro, React
+						</p>
+						<p className="py-2">
+							<strong>Web stuff:</strong> SEO, Google Analytics, Google Console,
+							Web hosting, API's, Copywriting, Video/Photo Editing
 						</p>
 						<p className="py-2">
 							I speak English (native) and Spanish (proficient).

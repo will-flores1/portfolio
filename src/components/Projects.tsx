@@ -6,7 +6,15 @@ interface Props {
 
 function Projects() {
 	return (
-		<div className="grid grid-cols-1 gap-8 md:grid-cols-2 text-center dark:text-white mt-3 mx-auto">
+		<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 text-center dark:text-white mt-3 mx-auto">
+			{/* Sort Algorithms Visualizer */}
+			<ProjectTemplate
+				title="Auto Body Service Website"
+				description="Auto Body service website, built with Astro.js."
+				demoLink="https://www.autobodyservicerockville.com"
+				githubLink="https://www.autobodyservicerockville.com"
+				demoImg="./assets/autobodyservice.png"
+			/>
 			{/* OBS Plug-in */}
 			<ProjectTemplate
 				title="Countdown Timer for OBS"
@@ -14,14 +22,6 @@ function Projects() {
 				demoLink=""
 				githubLink="https://github.com/will-flores1/Countdown-obs-plugin"
 				demoImg="./assets/timer-obs-plugin-demo.jpg"
-			/>
-			{/* Sort Algorithms Visualizer */}
-			<ProjectTemplate
-				title="Sort Algorithms Visualizer"
-				description="Sorting algorithm visualization tool."
-				demoLink="https://sort-algorithms-six.vercel.app/"
-				githubLink="https://github.com/will-flores1/Sort-Algorithms"
-				demoImg="./assets/sort-algorithms-demo.jpg"
 			/>
 			{/* Local Library */}
 			<ProjectTemplate
