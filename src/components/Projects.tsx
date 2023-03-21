@@ -7,13 +7,21 @@ interface Props {
 function Projects() {
 	return (
 		<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 text-center dark:text-white mt-3 mx-auto">
-			{/* Sort Algorithms Visualizer */}
+			{/* Mechanic Services Website */}
 			<ProjectTemplate
-				title="Auto Body Service Website"
+				title="Rockville Mechanic Website"
+				description="Mechanic service website, built with Astro.js + Typescript, & Bootstrap."
+				demoLink="https://www.autobodyservicerockville.com"
+				githubLink="https://www.autobodyservicerockville.com"
+				demoImg="./assets/mechanic.jpg"
+			/>
+			{/* Auto Body Services Website */}
+			<ProjectTemplate
+				title="Rockville Auto Body Website"
 				description="Auto Body service website, built with Astro.js."
 				demoLink="https://www.autobodyservicerockville.com"
 				githubLink="https://www.autobodyservicerockville.com"
-				demoImg="./assets/autobodyservice.png"
+				demoImg="./assets/autobody.jpg"
 			/>
 			{/* OBS Plug-in */}
 			<ProjectTemplate

@@ -29,7 +29,7 @@ function ProjectTemplate(props: Props) {
 					{props.description}
 				</p>
 			</a>
-			{/* <a
+			<a
 				href={props.demoLink}
 				target="_blank"
 				rel="noreferrer"
@@ -44,7 +44,7 @@ function ProjectTemplate(props: Props) {
 				className="p-3 text-blue-500 hover:underline md:font-normal lg:text-base text-lg font-semibold"
 			>
 				Source-code
-			</a> */}
+			</a>
 		</div>
 	);
 }

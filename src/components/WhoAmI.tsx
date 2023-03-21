@@ -26,9 +26,9 @@ function WhoAmI() {
 							<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
 								Wilfredo Flores
 							</div>
-							{/* <div className="text-black/70 dark:text-white text-lg lg:text-base">
-								Software Developer
-							</div> */}
+							<div className="text-black/70 dark:text-white text-lg lg:text-base">
+								Software Engineer
+							</div>
 						</div>
 						<img
 							src="./profile-pic.webp"
@@ -41,31 +41,24 @@ function WhoAmI() {
 					</div>
 					<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
 						<p className="py-2">
-							I'm a <span className="w-40">{age}</span> year old in Maryland.
+							I'm a <span className="w-40">{age}</span> year old developer from
+							Maryland.
 						</p>
 						<p className="py-2">
-							<strong>Languages:</strong> Javascript, HTML, CSS
+							<strong>Languages:</strong> Javascript, HTML, CSS, Java, Python,
+							Rust
 						</p>
 						<p className="py-2">
-							<strong>Frameworks:</strong> Svelte, Astro, React
+							<strong>Frameworks:</strong> Svelte, Astro, React, Next.js, Vite
 						</p>
 						<p className="py-2">
-							<strong>Web stuff:</strong> SEO, Google Analytics, Google Console,
-							Web hosting, API's, Copywriting, Video/Photo Editing
+							<strong>Databases:</strong> MongoDB, SQL, Firebase
 						</p>
 						<p className="py-2">
-							I speak English (native) and Spanish (proficient).
+							<strong>Libraries:</strong> Bootstrap, Tailwindcss
 						</p>
 					</div>
 				</section>
-				{/* <a
-				href="https://www.wilfredoflores.dev/"
-				className="bg-emerald-600 w-fit mx-auto mt-6 py-3 px-6 rounded-md text-white hover:cursor-pointer hover:bg-emerald-700 transition ease-in-out duration-150 font-bold"
-				target="_blank"
-				rel="noreferrer"
-			>
-				My portfolio
-			</a> */}
 				<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
 					Projects
 				</div>
