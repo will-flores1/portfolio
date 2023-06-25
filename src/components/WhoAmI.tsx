@@ -23,11 +23,11 @@ function WhoAmI() {
 				<section>
 					<div className="lg:flex lg:justify-between mt-1">
 						<div>
-							<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/70">
+							<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/90">
 								Wilfredo Flores
 							</div>
 							<div className="text-black/70 dark:text-white text-lg lg:text-base">
-								Software Engineer
+								Web developer/Programmer
 							</div>
 						</div>
 						<img
@@ -36,7 +36,7 @@ function WhoAmI() {
 							alt="profile"
 						/>
 					</div>
-					<div className="dark:text-white font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
+					<div className="dark:text-white font-semibold text-4xl lg:text-5xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
 						Me in 10 seconds
 					</div>
 					<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
@@ -45,27 +45,26 @@ function WhoAmI() {
 							Maryland.
 						</p>
 						<p className="py-2">
-							<strong>Languages:</strong> Javascript, HTML, CSS, Java, Python,
-							Rust
+							<strong>Languages:</strong> Javascript, HTML, CSS, Python
 						</p>
 						<p className="py-2">
-							<strong>Frameworks:</strong> Svelte, Astro, React, Next.js, Vite
+							<strong>Frameworks:</strong> Svelte, React
 						</p>
 						<p className="py-2">
-							<strong>Databases:</strong> MongoDB, SQL, Firebase
+							<strong>Databases:</strong> MongoDB, MySQL
 						</p>
 						<p className="py-2">
 							<strong>Libraries:</strong> Bootstrap, Tailwindcss
 						</p>
 					</div>
 				</section>
-				<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
+				<div className="mt-6 font-semibold text-4xl lg:text-5xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
 					Projects
 				</div>
 				<Projects />
 			</main>
 			<footer className="mb-10">
-				<div className="mt-6 font-semibold text-2xl lg:text-xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
+				<div className="mt-6 font-semibold text-4xl lg:text-5xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
 					On the web
 				</div>
 				<HyperLink

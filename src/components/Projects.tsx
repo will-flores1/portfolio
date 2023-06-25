@@ -7,33 +7,33 @@ interface Props {
 function Projects() {
 	return (
 		<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 text-center dark:text-white mt-3 mx-auto">
-			{/* Mechanic Services Website */}
+			{/* Five O Autocare Mechanic Services Website */}
 			<ProjectTemplate
-				title="Rockville Mechanic Website"
-				description="Mechanic service website, built with Astro.js + Typescript, & Bootstrap."
-				demoLink="https://www.autobodyservicerockville.com"
-				githubLink="https://www.autobodyservicerockville.com"
+				title="Rockville Mechanic"
+				description="Custom website services. Built w/ Astro, Svelte, & SASS."
+				demoLink="https://www.fiveoautocare.com/"
+				githubLink="https://github.com/will-flores1/mechanic-rockville"
 				demoImg="./assets/mechanic.jpg"
 			/>
-			{/* Auto Body Services Website */}
+			{/* Pro Auto Body Services Website */}
 			<ProjectTemplate
-				title="Rockville Auto Body Website"
-				description="Auto Body service website, built with Astro.js."
+				title="Rockville Auto Body"
+				description="Custom website services. Built with Astro & Svelte."
 				demoLink="https://www.autobodyservicerockville.com"
-				githubLink="https://www.autobodyservicerockville.com"
+				githubLink="https://github.com/will-flores1/AutoBody-Rockville"
 				demoImg="./assets/autobody.jpg"
 			/>
 			{/* OBS Plug-in */}
 			<ProjectTemplate
-				title="Countdown Timer for OBS"
-				description="Countdown Stream Timer/Clock for OBS"
+				title="Countdown Timer"
+				description="Countdown Stream Timer/Clock for Open Broadcast Software (OBS)"
 				demoLink=""
 				githubLink="https://github.com/will-flores1/Countdown-obs-plugin"
 				demoImg="./assets/timer-obs-plugin-demo.jpg"
 			/>
 			{/* Local Library */}
 			<ProjectTemplate
-				title="CRUD Library App"
+				title="Library App"
 				description="Book tracking web application."
 				demoLink="https://library-app-navy.vercel.app/"
 				githubLink="https://github.com/will-flores1/Library-App"
@@ -41,8 +41,8 @@ function Projects() {
 			/>
 			{/* Spotify API React */}
 			<ProjectTemplate
-				title="Spotify Web API App"
-				description="Spotify API categories, playlists, tracks UI"
+				title="Spotify Web App"
+				description="Interface to play w/ categories, playlists, tracks using the Spotify API"
 				demoLink="https://spotify-api-react.vercel.app/"
 				githubLink="https://github.com/will-flores1/spotify-api-react"
 				demoImg="./assets/spotify-demo.webp"
@@ -50,7 +50,7 @@ function Projects() {
 			{/* Twitter */}
 			<ProjectTemplate
 				title="Twitter Clone"
-				description="Sign in, tweet, and comment."
+				description="Interface clone using Tailwindcss. Features include sign in, tweet, and comment."
 				demoLink="https://twitter-2-0-nu.vercel.app/"
 				githubLink="https://github.com/will-flores1/twitter-2.0"
 				demoImg="./assets/twitter-demo.webp"
