@@ -48,7 +48,7 @@ function WhoAmI() {
 							<strong>Languages:</strong> Javascript, HTML, CSS, Python
 						</p>
 						<p className="py-2">
-							<strong>Frameworks:</strong> Svelte, React
+							<strong>Frameworks:</strong> Svelte, React, Wordpress
 						</p>
 						<p className="py-2">
 							<strong>Databases:</strong> MySQL
