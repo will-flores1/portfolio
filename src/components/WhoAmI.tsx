@@ -51,7 +51,7 @@ function WhoAmI() {
 							<strong>Frameworks:</strong> Svelte, React
 						</p>
 						<p className="py-2">
-							<strong>Databases:</strong> MongoDB, MySQL
+							<strong>Databases:</strong> MySQL
 						</p>
 						<p className="py-2">
 							<strong>Libraries:</strong> Bootstrap, Tailwindcss
