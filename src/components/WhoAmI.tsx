@@ -54,7 +54,7 @@ function WhoAmI() {
 							<strong>Databases:</strong> MySQL
 						</p>
 						<p className="py-2">
-							<strong>Libraries:</strong> Bootstrap, Tailwindcss
+							<strong>Libraries:</strong> Bootstrap, Tailwindcss, SASS
 						</p>
 					</div>
 				</section>
