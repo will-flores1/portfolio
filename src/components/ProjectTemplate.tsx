@@ -1,11 +1,11 @@
 interface Props {
-	githubLink: string;
+	githubLink?: string;
 	demoImg: string;
 	title: string;
 	description: string;
 	demoLink?: string;
 	tags?: string[];
-	currentTag: string;
+	currentTag?: string;
 }
 
 function ProjectTemplate(props: Props) {
@@ -13,7 +13,9 @@ function ProjectTemplate(props: Props) {
 		<div className=" dark:text-white/90 text-black/90 group mx-auto">
 			<a href={props.githubLink} target="_blank" rel="noreferrer">
 				<img
-					src={props.demoImg}
+					src={
+						props.demoImg !== "" ? props.demoImg : "./assets/placeholder.png"
+					}
 					alt="thumbnail"
 					className="rounded-xl mb-4 w-80 h-44 mx-auto object-cover"
 				/>
@@ -27,17 +29,17 @@ function ProjectTemplate(props: Props) {
 						className="h-6 w-6 lg:h-5 lg:w-5 fill-darkMoon pt-1 ml-2 group group-hover:opacity-25 transition duration-500 ease-in-out"
 					/>
 				</div>
-				<p className="font-normal pt-1 md:text-sm text-black dark:text-white/90 group-hover:opacity-70 transition duration-500 ease-in-out">
+				<p className="font-normal pt-1 md:text-sm text-black dark:text-white/90 group-hover:opacity-70 transition duration-500 ease-in-out flex justify-center">
 					{props.description}
 				</p>
-				<div className="mt-2 mb-2 flex flex-wrap justify-center">
+				<div className="mt-2 mb-2 flex flex-wrap justify-center gap-2">
 					{props.tags?.map((tag) => (
 						<span
 							key={tag}
 							className={
 								props.currentTag === tag
-									? "bg-gray-300 dark:bg-gray-500 dark:text-white/90 text-black/90 px-2 py-1 rounded-md text-sm font-medium mt-2 mr-2"
-									: "bg-gray-200 dark:bg-gray-700 dark:text-white/90 text-black/90 px-2 py-1 rounded-md text-sm font-medium mt-2 mr-2"
+									? "bg-gray-300 dark:bg-gray-500 dark:text-white/90 text-black/90 px-2 py-1 rounded-md text-sm font-medium"
+									: "bg-gray-200 dark:bg-gray-700 dark:text-white/90 text-black/90 px-2 py-1 rounded-md text-sm font-medium"
 							}
 						>
 							{tag}
@@ -57,14 +59,16 @@ function ProjectTemplate(props: Props) {
 					</a>
 				) : null}
 
-				<a
-					href={props.githubLink}
-					target="_blank"
-					rel="noreferrer"
-					className="p-1 text-blue-500 hover:underline md:font-normal lg:text-base text-lg font-semibold"
-				>
-					Source Code
-				</a>
+				{props.githubLink ? (
+					<a
+						href={props.githubLink}
+						target="_blank"
+						rel="noreferrer"
+						className="p-1 text-blue-500 hover:underline md:font-normal lg:text-base text-lg font-semibold"
+					>
+						Source Code
+					</a>
+				) : null}
 			</div>
 		</div>
 	);
