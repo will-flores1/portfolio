@@ -54,8 +54,7 @@ function WhoAmI() {
 					</div>
 					<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
 						<p className="py-2">
-							I'm a <span className="w-40">{age}</span> year old developer from
-							Maryland.
+							I'm a <span className="w-40">{age}</span> year old developer
 						</p>
 						<p className="py-2">
 							<strong>Languages:</strong> Javascript/Typescript, HTML + CSS,
@@ -82,7 +81,6 @@ function WhoAmI() {
 					<ProjectTemplate
 						key={projects[i].title}
 						githubLink={projects[i].githubLink}
-						demoImg={projects[i].demoImg}
 						title={projects[i].title}
 						description={projects[i].description}
 						demoLink={projects[i].demoLink}
