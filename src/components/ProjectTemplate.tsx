@@ -4,6 +4,8 @@ interface Props {
 	title: string;
 	description: string;
 	demoLink?: string;
+	tags?: string[];
+	currentTag: string;
 }
 
 function ProjectTemplate(props: Props) {
@@ -13,7 +15,7 @@ function ProjectTemplate(props: Props) {
 				<img
 					src={props.demoImg}
 					alt="thumbnail"
-					className="rounded-xl mb-4 w-fit h-44 md:h-fit mx-auto"
+					className="rounded-xl mb-4 w-80 h-44 mx-auto object-cover"
 				/>
 				<div className="flex justify-center items-center">
 					<p className="text-xl md:text-lg font-medium group-hover:opacity-70 transition duration-500 ease-in-out">
@@ -28,23 +30,42 @@ function ProjectTemplate(props: Props) {
 				<p className="font-normal pt-1 md:text-sm text-black dark:text-white/90 group-hover:opacity-70 transition duration-500 ease-in-out">
 					{props.description}
 				</p>
+				<div className="mt-2 mb-2 flex flex-wrap justify-center">
+					{props.tags?.map((tag) => (
+						<span
+							key={tag}
+							className={
+								props.currentTag === tag
+									? "bg-gray-300 dark:bg-gray-500 dark:text-white/90 text-black/90 px-2 py-1 rounded-md text-sm font-medium mt-2 mr-2"
+									: "bg-gray-200 dark:bg-gray-700 dark:text-white/90 text-black/90 px-2 py-1 rounded-md text-sm font-medium mt-2 mr-2"
+							}
+						>
+							{tag}
+						</span>
+					))}
+				</div>
 			</a>
-			<a
-				href={props.demoLink}
-				target="_blank"
-				rel="noreferrer"
-				className="pl-3 text-blue-500 hover:underline md:font-normal lg:text-base text-lg font-semibold"
-			>
-				Live
-			</a>
-			<a
-				href={props.githubLink}
-				target="_blank"
-				rel="noreferrer"
-				className="p-3 text-blue-500 hover:underline md:font-normal lg:text-base text-lg font-semibold"
-			>
-				Source-code
-			</a>
+			<div className="flex justify-center gap-4">
+				{props.demoLink ? (
+					<a
+						href={props.demoLink}
+						target="_blank"
+						rel="noreferrer"
+						className="p-1 text-blue-500 hover:underline md:font-normal lg:text-base text-lg font-semibold"
+					>
+						Live Demo
+					</a>
+				) : null}
+
+				<a
+					href={props.githubLink}
+					target="_blank"
+					rel="noreferrer"
+					className="p-1 text-blue-500 hover:underline md:font-normal lg:text-base text-lg font-semibold"
+				>
+					Source Code
+				</a>
+			</div>
 		</div>
 	);
 }
