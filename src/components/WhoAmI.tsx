@@ -27,7 +27,7 @@ function WhoAmI() {
 								Wilfredo Flores
 							</div>
 							<div className="text-black/70 dark:text-white text-lg lg:text-base">
-								Web developer/Programmer
+								Programmer
 							</div>
 						</div>
 						<img
@@ -36,7 +36,7 @@ function WhoAmI() {
 							alt="profile"
 						/>
 					</div>
-					<div className="dark:text-white font-semibold text-4xl lg:text-5xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white">
+					<div className="dark:text-white font-semibold text-5xl lg:text-6xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white mt-16">
 						Me in 10 seconds
 					</div>
 					<div className="mt-2 font-normal dark:text-white lg:text-base text-lg font-mono tracking-tighter">
@@ -45,26 +45,27 @@ function WhoAmI() {
 							Maryland.
 						</p>
 						<p className="py-2">
-							<strong>Languages:</strong> Javascript, HTML, CSS, Python
+							<strong>Languages:</strong> Javascript/Typescript, HTML + CSS,
+							Python
 						</p>
 						<p className="py-2">
-							<strong>Frameworks:</strong> Svelte, React, Wordpress
+							<strong>Frontend:</strong> React, Svelte, Wordpress
 						</p>
 						<p className="py-2">
-							<strong>Databases:</strong> MySQL
+							<strong>Styling:</strong> Tailwindcss, SASS, Bootstrap
 						</p>
 						<p className="py-2">
-							<strong>Libraries:</strong> Bootstrap, Tailwindcss, SASS
+							<strong>Backend:</strong> Node, Express, Mongoose, MongoDB, MySQL
 						</p>
 					</div>
 				</section>
-				<div className="mt-6 font-semibold text-4xl lg:text-5xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white">
+				<div className="mt-6 font-semibold text-5xl lg:text-6xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white pt-16">
 					Projects
 				</div>
 				<Projects />
 			</main>
 			<footer className="mb-10">
-				<div className="mt-6 font-semibold text-4xl lg:text-5xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white ">
+				<div className="mt-6 font-semibold text-4xl lg:text-5xl border-black border-b-4 w-fit pb-1 tracking-wide dark:text-white dark:border-white pt-16">
 					On the web
 				</div>
 				<HyperLink
