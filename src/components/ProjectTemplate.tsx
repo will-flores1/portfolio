@@ -1,6 +1,6 @@
 interface Props {
 	githubLink?: string;
-	demoImg: string;
+	demoImg?: string;
 	title: string;
 	description: string;
 	demoLink?: string;
@@ -12,13 +12,13 @@ function ProjectTemplate(props: Props) {
 	return (
 		<div className=" dark:text-white/90 text-black/90 group mx-auto">
 			<a href={props.githubLink} target="_blank" rel="noreferrer">
-				<img
-					src={
-						props.demoImg !== "" ? props.demoImg : "./assets/placeholder.png"
-					}
-					alt="thumbnail"
-					className="rounded-xl mb-4 w-80 h-44 mx-auto object-cover"
-				/>
+				{props.demoImg && (
+					<img
+						src={props.demoImg}
+						alt="thumbnail"
+						className="rounded-xl mb-4 w-80 h-44 mx-auto object-cover"
+					/>
+				)}
 				<div className="flex justify-center items-center">
 					<p className="text-xl md:text-lg font-medium group-hover:opacity-70 transition duration-500 ease-in-out">
 						{props.title}
