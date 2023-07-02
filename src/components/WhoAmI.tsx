@@ -3,9 +3,22 @@ import Projects from "./Projects";
 import { getAge } from "../helpers/age";
 import { useEffect, useState } from "react";
 import HyperLink from "./HyperLink";
+import projects from "../data/projects.json";
 
 function WhoAmI() {
 	let [age, setAge] = useState("");
+	let [getRandomProject, setGetRandomProject] = useState(false);
+
+	let [i, setI] = useState(0);
+
+	function randomInt(max: number) {
+		return Math.floor(Math.random() * max);
+	}
+
+	const handleClick = () => {
+		setGetRandomProject(true);
+		setI(randomInt(projects.length));
+	};
 
 	useEffect(() => {
 		const timer = setInterval(() => {
@@ -59,6 +72,23 @@ function WhoAmI() {
 						</p>
 					</div>
 				</section>
+				<button
+					className="bg-emerald-600 w-fit flex mx-auto mt-16 mb-10 py-3 px-6 rounded-md text-white hover:cursor-pointer hover:bg-emerald-700 transition ease-in-out duration-150 font-bold"
+					onClick={handleClick}
+				>
+					Random Project
+				</button>
+				{getRandomProject && (
+					<ProjectTemplate
+						key={projects[i].title}
+						githubLink={projects[i].githubLink}
+						demoImg={projects[i].demoImg}
+						title={projects[i].title}
+						description={projects[i].description}
+						demoLink={projects[i].demoLink}
+						tags={projects[i].tags}
+					/>
+				)}
 				<div className="mt-6 font-semibold text-5xl lg:text-6xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white pt-16">
 					Projects
 				</div>
