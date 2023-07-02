@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Rockville Mechanic",
+    "description": "Mechanic shop website.",
+    "demoLink": "https://www.fiveoautocare.com/",
+    "githubLink": "https://github.com/will-flores1/mechanic-rockville",
+    "demoImg": "./assets/mechanic.jpg",
+    "tags": ["Website", "Astro", "Svelte", "SASS"]
+  },
+  {
+    "title": "Rockville Auto Body",
+    "description": "Auto body shop website.",
+    "demoLink": "https://www.autobodyservicerockville.com",
+    "githubLink": "https://github.com/will-flores1/AutoBody-Rockville",
+    "demoImg": "./assets/autobody.jpg",
+    "tags": ["Website", "Astro", "Svelte", "CSS"]
+  },
+  {
+    "title": "Simple Theme",
+    "description": "A simple website theme.",
+    "demoLink": "https://rocket-websites.vercel.app/",
+    "githubLink": "https://github.com/will-flores1/rocket-websites",
+    "demoImg": "./assets/simpletheme.png",
+    "tags": ["Website", "Astro", "Svelte"]
+  },
+  {
+    "title": "Developer Portfolio",
+    "description": "Portfolio theme.",
+    "demoLink": "https://portfolio-will-flores1.vercel.app/",
+    "githubLink": "https://github.com/will-flores1/portfolio",
+    "demoImg": "./assets/portfolio.png",
+    "tags": ["Website", "React", "Typescript"]
+  },
+  {
+    "title": "Portfolio 2",
+    "description": "Portfolio 2 theme.",
+    "demoLink": "https://www.wilfredoflores.dev/",
+    "githubLink": "https://github.com/will-flores1/portfolio-too",
+    "demoImg": "./assets/portfolio2.png",
+    "tags": ["Website", "React", "Typescript"]
+  },
+  {
+    "title": "Library App",
+    "description": "The Odin Project reading tracker.",
+    "demoLink": "https://library-app-navy.vercel.app/",
+    "githubLink": "https://github.com/will-flores1/Library-App",
+    "demoImg": "./assets/library-app-demo.jpg",
+    "tags": ["TOP", "Web App", "Javascript", "CSS"]
+  },
+  {
+    "title": "Tic Tac Toe",
+    "description": "The Odin Project tic tac toe.",
+    "demoLink": "https://will-flores1.github.io/Odin-Project-tic-tac-toe/",
+    "githubLink": "https://github.com/will-flores1/Odin-Project-tic-tac-toe",
+    "demoImg": "./assets/tic-tac-toe.png",
+    "tags": ["TOP", "Game", "HTML", "Javascript"]
+  },
+  {
+    "title": "Rock, Paper, Scissors",
+    "description": "The Odin Project rock, paper, scissors.",
+    "demoLink": "https://will-flores1.github.io/rock-paper-scissors/",
+    "githubLink": "https://github.com/will-flores1/rock-paper-scissors",
+    "demoImg": "./assets/rps.png",
+    "tags": ["TOP", "Game", "HTML", "CSS", "Javascript"]
+  },
+  {
+    "title": "Etch-A-Sketch",
+    "description": "The Odin Project Etch-A-Sketch.",
+    "demoLink": "https://will-flores1.github.io/etch-a-sketch/",
+    "githubLink": "https://github.com/will-flores1/etch-a-sketch",
+    "demoImg": "./assets/etch.png",
+    "tags": ["TOP", "Game", "HTML", "CSS", "Javascript"]
+  },
+  {
+    "title": "Calculator",
+    "description": "The Odin Project calculator.",
+    "demoLink": "https://will-flores1.github.io/Odin-Project-calculator/",
+    "githubLink": "https://github.com/will-flores1/Odin-Project-calculator",
+    "demoImg": "./assets/calculator.png",
+    "tags": ["TOP", "Web App", "HTML", "CSS", "Javascript"]
+  },
+  {
+    "title": "Spotify Playlist",
+    "description": "Play categories, playlists, & tracks.",
+    "demoLink": "https://spotify-api-react.vercel.app/",
+    "githubLink": "https://github.com/will-flores1/spotify-api-react",
+    "demoImg": "./assets/spotify-demo.webp",
+    "tags": ["Web App", "React", "Typescript", "API"]
+  },
+  {
+    "title": "Twitter Feed",
+    "description": "Twitter clone with a CMS.",
+    "demoLink": "https://twitter-2-0-nu.vercel.app/",
+    "githubLink": "https://github.com/will-flores1/twitter-2.0",
+    "demoImg": "./assets/twitter-demo.webp",
+    "tags": ["Web App", "React", "Tailwind", "CMS"]
+  },
+  {
+    "title": "Medium Blog",
+    "description": "Blog with a CMS.",
+    "demoLink": "http://medium-2-0-sooty.vercel.app/",
+    "githubLink": "https://github.com/will-flores1/medium-2.0",
+    "demoImg": "./assets/medium.jpg",
+    "tags": ["Web App", "React", "Tailwind", "CMS"]
+  },
+  {
+    "title": "Countdown Timer",
+    "description": "Plugin for Open Broadcast Software (OBS)",
+    "githubLink": "https://github.com/will-flores1/Countdown-obs-plugin",
+    "demoImg": "./assets/timer-obs-plugin-demo.jpg",
+    "tags": ["Plugin", "Javascript", "CSS"]
+  },
+  {
+    "title": "Tenzies",
+    "description": "Dice game.",
+    "githubLink": "https://github.com/will-flores1/tenzies-game",
+    "demoImg": "./assets/tenzies.png",
+    "tags": ["Game", "React"]
+  },
+  {
+    "title": "Speed Typing",
+    "description": "Speed typing game.",
+    "githubLink": "https://github.com/will-flores1/speed-typing-game",
+    "demoImg": "./assets/speed-typing.png",
+    "tags": ["Game", "React"]
+  }
+]
