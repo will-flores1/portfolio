@@ -39,9 +39,9 @@ function WhoAmI() {
 							<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/90">
 								Wilfredo Flores
 							</div>
-							<div className="text-black/70 dark:text-white text-lg lg:text-base">
+							{/* <div className="text-black/70 dark:text-white text-lg lg:text-base">
 								Programmer
-							</div>
+							</div> */}
 						</div>
 						<img
 							src="./profile-pic.webp"
