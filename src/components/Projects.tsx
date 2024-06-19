@@ -10,15 +10,9 @@ function Projects() {
 
 	const [tags, setTags] = useState<string[]>([
 		"All",
-		"TOP",
-		"React",
-		"Javascript",
-		"Svelte",
-		"Web App",
-		"Typescript",
+		"The Odin Project",
 		"Website",
-		"Astro",
-		"Game",
+		"OBS Plug-in",
 	]);
 
 	return (
@@ -35,9 +29,7 @@ function Projects() {
 						key={tag}
 						onClick={() => {
 							setCurrentTag(tag);
-							console.log("currentTag:" + currentTag);
-						}}
-					>
+						}}>
 						{tag}
 					</button>
 				))}
