@@ -1,24 +1,10 @@
-import ProjectTemplate from "./ProjectTemplate";
 import Projects from "./Projects";
 import { getAge } from "../helpers/age";
 import { useEffect, useState } from "react";
 import HyperLink from "./HyperLink";
-import projects from "../data/projects.json";
 
 function WhoAmI() {
 	let [age, setAge] = useState("");
-	let [getRandomProject, setGetRandomProject] = useState(false);
-
-	let [i, setI] = useState(0);
-
-	function randomInt(max: number) {
-		return Math.floor(Math.random() * max);
-	}
-
-	const handleClick = () => {
-		setGetRandomProject(true);
-		setI(randomInt(projects.length));
-	};
 
 	useEffect(() => {
 		const timer = setInterval(() => {
@@ -33,21 +19,6 @@ function WhoAmI() {
 			id="fade">
 			<main>
 				<section>
-					{/* <div className="lg:flex lg:justify-between mt-1">
-						<div>
-							<div className="mt-5 dark:text-white font-bold tracking-wider lg:text-3xl text-4xl text-black/90">
-								Wilfredo Flores
-							</div>
-							<div className="text-black/70 dark:text-white text-lg lg:text-base">
-								Programmer
-							</div>
-						</div>
-						<img
-							src="./profile-pic.webp"
-							className="lg:mx-0 h-40 w-40 mx-auto my-4 rounded-full"
-							alt="profile"
-						/>
-					</div> */}
 					<div className="dark:text-white font-semibold text-5xl lg:text-6xl border-black border-b-4 w-fit pb-1 tracking-wider dark:border-white mt-16">
 						Me in 10 seconds
 					</div>
@@ -57,30 +28,14 @@ function WhoAmI() {
 							developer
 						</p>
 						<p className="py-2">
-							<strong>Languages:</strong> Javascript, HTML + CSS,
-							Express, Mongoose
+							<strong>Languages:</strong> Javascript, HTML + CSS
 						</p>
 						<p className="py-2">
-							<strong>Frameworks:</strong> React, WordPress, Bootstrap
+							<strong>Frameworks:</strong> React, Svelte
 						</p>
-						<strong>Databases:</strong> MongoDB, SQLite
+						<strong>Databases:</strong> Oracle SQL, AWS RDS, MongoDB
 					</div>
 				</section>
-				{/* <button
-					className="bg-emerald-600 w-fit flex mx-auto mt-16 mb-10 py-3 px-6 rounded-md text-white hover:cursor-pointer hover:bg-emerald-700 transition ease-in-out duration-150 font-bold"
-					onClick={handleClick}>
-					Random Project
-				</button>
-				{getRandomProject && (
-					<ProjectTemplate
-						key={projects[i].title}
-						githubLink={projects[i].githubLink}
-						title={projects[i].title}
-						description={projects[i].description}
-						demoLink={projects[i].demoLink}
-						tags={projects[i].tags}
-					/>
-				)} */}
 				<div
 					id="projects"
 					className="mt-6 font-semibold text-5xl lg:text-6xl border-black border-b-4 w-fit pb-1 tracking-wider dark:text-white dark:border-white pt-16">
@@ -93,8 +48,9 @@ function WhoAmI() {
 					On the web
 				</div>
 				<HyperLink
-					img="./assets/github.svg"
-					link="https://github.com/will-flores1"
+					img=""
+					link="https://www.linkedin.com/in/wflore19/"
+					title="LinkedIn"
 				/>
 			</footer>
 		</div>
